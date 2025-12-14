@@ -1,48 +1,19 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f5f3ef;
-    color: #3e2723;
     margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #667eea, #764ba2);
+    color: white;
 }
 
-header, footer {
-    background-color: #6f4e37;
-    color: #fff;
-    padding: 15px;
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
     text-align: center;
 }
 
-nav {
-    background-color: #a1887f;
-    padding: 10px;
-    text-align: center;
-}
-
-nav a {
-    color: #fff;
-    margin: 0 10px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-main {
-    padding: 20px;
-    background-color: #fff;
-    margin: 10px;
-    border-radius: 5px;
-}
-
-aside {
-    background-color: #d7ccc8;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-}
-
-footer {
-    font-size: 0.9em;
+.card {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    padding: 30px;
 }
